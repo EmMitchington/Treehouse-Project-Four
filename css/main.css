@@ -1,0 +1,59 @@
+/* HTML Base Styles */
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+body {
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.box {
+  position: fixed;
+  z-index: 1;
+  top: 5px;
+  width: 100%;
+  padding: 25px 0;
+}
+
+#search {
+  background-color: #ccf5ff;
+  outline: none;
+  width: 100%;
+  max-width: 460px;
+  height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  color: #d9d9d9;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.popup-gallery {
+  margin-top: 130px;
+}
+
+#gallery {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  padding: 45px;
+  display: inline-block;
+}
+
+
+img {
+  border-radius: 5px;
+  display: block;
+}
+
+footer {
+  color: #d9d9d9;
+}
+
+/* JQuery Styles */
